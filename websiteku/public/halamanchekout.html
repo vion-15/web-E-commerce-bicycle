@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chekout</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style/chekout.css">
+    <script src="js/chekout.js" defer></script>
+    <script src="js/cart.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Mybike</a>
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content"></div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">IDR0</div>
+                </div>
+                <button type="button" class="btn-buy">Pay Now</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--ROADBIKE-->
+    <section class="shop container">
+        <h2 class="section-title">Shop Product</h2>
+        <h3 class="judul"><i>Road Bike :</i></h3>
+        <div class="shop-content">
+            <!-- product 1 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSeIL9f6F45dbcwp91svQDuwiRxLRwqY_ossrPdtGEyNKLHAj48yvTUJdKrHp295o6qTTm_BHSCbAkFOwGGxoMBg1t88z6K6HSd1WrFfUpCC-mpG9QM-pC1H5N16f3MhQ92ylts41OJY9zHfE4KDNrwpPagEE38zdYVRkPJe6n-NfVzWaRJImxoc4F3tLO/s320/product1.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">ROAD BIKE 1</h2>
+                <span class="price">IDR1000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 2 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-34XVL1WYfa2xKSSLi_JifFE5gsGJGZ5mCkzuAJ_5lhE-4bj5Fy08kr4ym7Qlw-cX0jSGPamYeLHe3LzMQnj1NhwCWvwKTTGzmMsSrI0nWdjqsQoMSrMrkl7hGB25m3lfzDsl2hOQDPAvgtrNKNUwM1PHJAUbjvMFHzyvm1vPg1Zk_Gd_3KeW-kUxVpAd/s320/product2.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">ROAD BIKE 2</h2>
+                <span class="price">IDR1000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 3 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSC7etq9vb_v8IN4ZoaLwgEQ1cEsI750rKSos17T9E-Iv5sUmGqV2cVcsf4zFaD5nfImPoe6-iHvKgP1B70ZbFanyRpLfjeJt9jOrfnpnVpBqgBFjA2SSDo9A5Dvg23fD9krV9b7F9nFhtuQ1hZI6e0yQj95cD7UkJL6jQEOA-79pmU6vl1YXgLkgeT61Y/s320/product3.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">ROAD BIKE 3</h2>
+                <span class="price">IDR1000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 4 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0x1LHKTYZLZsqq13bYje65PKa5p80CHiNaGrQFNsotH9gnEJUZu_Y7z1pl0db4PuPvMLozy0xWvwHFBxuwNI-9S8AWNXOWvNrqH0Vgmu9OZeCDlHljXM4eQZVe5qxsIhRPr-iCp5QSljCI5HGjg7Vs0ReByMwnXKhP5eWa6o44_OxUwta8lYZoUbAGUDv/s320/product4.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">ROAD BIKE 4</h2>
+                <span class="price">IDR1000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+    </section>
+
+    <!--BMX-->
+    <section class="shop1 container">
+        <h3 class="judul"><i>BMX :</i></h3>
+        <div class="shop-content">
+            <!-- product 1 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWPpnRv6xWLPCTO4dn_eWOGHt2YtIPDPKZClyt1H6WoyO4naqyqYfTj76weI8I5M6p948ftQ6y2wZZC6fHOsKhiEVmmpPCzQNmHZmD-mLujCrKLoJK1m4ifO_fjTPliYy4_GlmOnddGQam2fEljV3fj39HE2bsy2hCEDnGJ-Mzas6z_H6OjfUN3stcBrPz/s320/1.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">BMX 1</h2>
+                <span class="price">IDR500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 2 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKlC0KDLVUXF52azz9IvukxLjwKx4l_MjjN-M4v0A16SZcBbZyyUuyB-Yk78e8xdE64bVQ62yyc6NjoyBWzqFjdoROySyXqLumaezessQrFwzfp-6ll2WClv6HFv4NslSRUI9sFjCyjb5XMnQioUOpfaXZorsA3Oz-2b_zeFP6UUV-ix33Ga2TBPQ7g5Vi/s320/2.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">BMX 2</h2>
+                <span class="price">IDR500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 3 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy_61hXXAu3tRGqne8JxE1AooiNX_F8FOsWtEYprOdsuxZF-vsdxGbE_51pGCyJQMUMjQjwaODMpdWGzUhMZhpXyg8Mtja4W2xKqVTIzCjeuTJTpHxc43_FOdjKr4R6N3SsOs2ubTXp0b2zoEbKkKMEDET0BzNP42c2isjs3zb9LDW-aLeiTNA9FLKPDNl/s320/3.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">BMX 3</h2>
+                <span class="price">IDR500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 4 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_lyAL90I41YYex3dBigaOfieYqZM4y1TyXPr2i0EetrCpHp7tvf6Rgkw-hxgqWllYqpPtjHNXOPUoX6OLWvEB5b3SdBOq72WDB9GqPpt-6Efwcn28myFBCQzuq2tOAMHkEI69J-Nbvk9XeBTagkb7uOXYf5ta_KXA6gUL2pKLEWY27A9rjoHyo09BRotx/s320/4.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">BMX 4</h2>
+                <span class="price">IDR500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+    </section>
+
+    <!--Gunung-->
+    <section class="shop1 container">
+        <h3 class="judul"><i>MOUNTAIN BIKE:</i></h3>
+        <div class="shop-content">
+            <!-- product 1 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEACTZzAMzhAX61FOPHBi5WTURbgx0I0zD0dhJPNog4OrvWNQA2SDOGA-tgcqLZVVkYQhNTMZN9DVSNQUF6GWJRAN_OI-u44D08EdwAncMZKcp8eUDNt_V-dN6B05My6fUsugWlKq_8I0cInXCFbH_YzbZKGpOiimwW3yyJS-nz-40DPgmBBG9aTiGYPGv/s320/1.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">MOUNTAIN BIKE 1</h2>
+                <span class="price">IDR1500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 2 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOQM2EXuWIPqt4qraCcgBsCLojXG3er2yIeuw_PqF18_Wi7OA8PwnNHPWX1Z6uZaZcJl0BFrO2ANe5raMpd14MFELaClO9TJGTv-R4S37iGdiiQm5ifcEQm2lY5O28hJcOEBdufb-ya4UITd7B3DkfH-M1nknELitjKxaj9SHgsl-zLXe3DlV1iaSNQ4Di/s320/2.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">MOUNTAIN BIKE 2</h2>
+                <span class="price">IDR1500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 3 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDykDBp5J_KdmM0zIc4TRfvB-ymvfy1tmBxk8FDY1TjbLRxUzNzDX3HEGeCcJ6CsRMkWsosEpk7QobnKZH_kD6_12oLP7h_5zTdhyphenhyphenw874-2Fg4qUkg_phhHJpunrvrJ3rCUQks6xAKehZZHJT8PoHxsqIJKPgag6O18yOPe3erUM9UbdgZR8j9GYi73prN/s320/3.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">MOUNTAIN BIKE 3</h2>
+                <span class="price">IDR1500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 4 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0vPL5taIA9iCKhcJLpO6MtWMmuhXU0dtBmNXYYtt4kvgwWx3KKwBeZ9mYCraDjV_Wdi0fc_k6qbVK-jpeu0agSCaeErzyuRFK3HmgvAVsyDIngIBPHXwyWdcNJulVeRVbisrMXB3DwvxxKw3wH1SqhcgdUTUho4eti-VHlswQVS_n9OsTWxES2DlVrDy7/s320/4.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">MOUNTAIN BIKE 4</h2>
+                <span class="price">IDR1500000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+    </section>
+
+    <!--FIXIE-->
+    <section class="shop1 container">
+        <h3 class="judul"><i>FIXIE:</i></h3>
+        <div class="shop-content">
+            <!-- product 1 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rgF-efN8HdGl89MaISk-GX9pOyebe5CQ7ldkiSEP7iN2rbfS0vK3RocoLiORdm7RErqWRPvuRulX29bbDXs3hILRODk3N__Vv8qL1M8BXZH0HEuutcgofV8reXx4eK9mVMfUY2g8PgFxaVFa-jHCCGR5Mv9HMXs4ZxOPgECbUHPYzW5vT5ov4Yse-fzf/s320/1.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">FIXIE 1</h2>
+                <span class="price">IDR2000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 2 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZBIE3VEhyphenhyphenVGGybebjaskjd7DIUD1VL1kp9Mmq2rEc2ZdO8Z1tlR3hf2pxA-4SVZ81CoPfHuAk95okAJI-p2vvaiJCMkOBhsF1aFNgWfsNjmbKGwsGec2rVzz4aGor77DTc-TW2KoDT1UdLKr8Nko0Vu2q7hmiRjk4DFDgw3KYwrYRxQ-oIfcqtkSSRAMe/s320/2.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">FIXIE 2</h2>
+                <span class="price">IDR2000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 3 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSIcBi_L6LdQKVroj8Be0u-sMRLzm3HvTRdsCtmTf2iTkQzKXjK-B8_gc9ajBvJO3U8D6oPlEtVY6H_h6qvJKmxECGsTPonuufhTGdrkxBPyP9OwrtXHiWfRbxQB6WE969jpF2kp7zMzxU91deLL5Gv6CgIil0SUiVwlWsXK7ErO64-HsSBY-MbaOjVFSG/s320/3.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">FIXIE 3</h2>
+                <span class="price">IDR2000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <!-- product 4 -->
+            <div class="product-box hidden">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj73veRLOa2INneL5Uxnsn-olYw2U1M7Kh0W-uX4Mznl4oR9-sasLXf_gWDB8Qd4hA_fjXc0Y-GDcMXuV_RKq0-gv3DfcznHIw5Kn4D_OSn-RoHgbi-qXOvWmJtoymQHa02LLaGJ3rYaZ2lhs4XdoQLv2zMbm2e7Cp_hqvwTTKDV8ayhDoEFfG_tWWduXqv/s320/4.jpg" 
+                alt="" class="product-img">
+                <h2 class="product-title">FIXIE 4</h2>
+                <span class="price">IDR2000000</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:wght@500&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Plus Jakarta Sans", monospace;
+}
+
+.kepala {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.my {
+    font-family: 'Caveat Brush', monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.logo .bike {
+    font-size: 30px;
+    color: white;
+}
+
+.tm {
+    color: black;
+}
+
+.menu a {
+    font-size: 18px;
+    color: white;
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: black;
+    font-weight: 1000;
+}
+
+.menu .aktif {
+    color: black;
+    font-weight: 1000;
+}
+
+.bagian1 {
+    min-height: 90vh;
+    padding: 10rem 9% 2rem;
+    margin-top: 0;
+    background-position: center;
+    background-size: 100%;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF4Aoq7E6mnanNaZJZhBBYiblVwhU9Lt-9wcIeKsltbXqhmZxaGM0VDrV5xlkME3orccxDfVsjHNDbHfUGQbqJm9w5T5WcCzS0GirIiQLgAonZ0jaJuhw8J9W_EaEoNSb7rmw2jXJQIwKSsfqsSs-wxivSyrbl-z4CU9gTEpm9evCGKRGjCK18dielVTBH/s16000/bgindex.jpg') no-repeat;
+    opacity: 1;
+    z-index: 0;
+    position: relative;
+}
+
+.nama {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.nama .my {
+    color: orange;
+    position: relative;
+}
+
+.nama .bike {
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.nama .tm {
+    color: white;
+    position: relative;
+}
+
+.bghover {
+    position: absolute;
+    left: 0;
+    width: 71%;
+    height: 100%;
+    top: 0;
+    background-color: black;
+    transition: 3s;
+    opacity: .6;
+    z-index: 0;
+}
+
+.kata p {
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: center;
+    max-width: 40rem;
+    color: orange;
+    z-index: 1;
+    font-weight: 1000;
+    opacity: 1;
+    position: relative;
+}
+
+.pesan {
+    position: absolute;
+    right: 20px;
+    top: -140px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesan h1 {
+    color: white;
+    font-family: 'Plus Jakarta Sans', monospace;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.pesan h2 {
+    color: white;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 40px;
+    margin-top: 10px;
+    left: 210px;
+}
+
+.order {
+    position: absolute;
+    right: -40px;
+    top: 50px;
+    height: 50%;
+    width: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order a {
+    text-decoration: none;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.order a:hover {
+    background-color: white;
+    color: orange;
+    transition: 1s;
+}
+
+.bagian2{
+    min-height: 130vh;
+    margin-top: 0;
+    background-color: orange;
+}
+
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}
+
+.type h1{
+    color: black;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 50px;
+}
+
+.spdbalap {
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 395px;
+    width: 20%;
+    position: relative;
+    left: 8%;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwWJ1u-mbxmUf0WAAx_Mpyupe6AqKuPJ5AQqvkTniD-mXwi6lFiXq8k-aNXnGEQSuFdzW2U_p1QWB2YEPWJ5rkyhxrOQyxMONm1zgHOOlYsUg-WdbC-cicfG-Pk7sGh-tjKbDIITC2JQT4hU2JLICy2nP4JlPU9mEzuh3fBlFLwlhPlV4dO0W40XPKWmOU/s320/balap.jpg') no-repeat;
+    background-size: cover;
+    top: 210px;
+    color: white;
+    text-align: center;
+    z-index: 0;
+}
+
+.spdbalap h3{
+    position: absolute;
+    color: white;
+    margin-top: 170px;
+    left: 50px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 50px;
+}
+
+.spdbalap h3:hover{
+    position: absolute;
+    color: orange;
+    margin-top: 170px;
+    left: 30px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 60px;
+}
+
+.spdbmx {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    left: 30%;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCmD7CMqrKrK2RjsPiNsCWK6KlOyCVCmocLZRd55zfhL-1_faYQQIgeShAWjcI2jdZG3yZ4NZ9MAXTXvCqqhAC7GoovIDs2_R6-Wh4e4C5YByqpoE_q5UxznjuT9zGgArOp5rwwpm255jDrorOA7c7jT6FPJitfcFZw0kiFc-ZqOTyYDvEh7w3yQmQK6o4/s320/BMX.jpg') no-repeat;
+    background-size: cover;
+    top: -183px;
+    height: 395px;
+}
+
+.spdbmx h3{
+    position: absolute;
+    margin-top: 170px;
+    left: 80px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 70px;
+    color: white;
+}
+
+.spdbmx h3:hover {
+    position: absolute;
+    margin-top: 150px;
+    left: 70px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 80px;
+    color: orange;
+}
+
+.spdgunung {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    left: 52%;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhb342A68DsrgiLaXDwxNpaJTbORilLz73_v9GZkj845GEN8QRj-8-1hZ4-90iZlR2uNqAH1I5QqGALw4K4p5ie7bNXGXXqJpe0eHPsYPJKLoGQlX4w5A01ukLSpYlyDdZkjBmhXruVTtcSDnd7xHLzRTUGMmQd3nXRqLKA5Kqf5Z6zgIBcN4p8lW-3DTvw/s320/gunung.jpg');
+    background-size: cover;
+    top: -183px;
+    height: 395px;
+}
+
+.spdgunung h3{
+    position: absolute;
+    margin-top: 170px;
+    left: 30px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.spdgunung h3:hover{
+    position: absolute;
+    margin-top: 170px;
+    left: 10px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+}
+
+.spdpixi {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    left: 74%;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifUImEXe-OJJVseXA7KxsVHogw56cOYFkXQREs2V502HUc_OKQarjmaCvJK-jXRTAtPmQgz7DDWvikAnvwur3YdRujOYUTvoYVi-rqyeRE3lpDjYxBIv86z9VIA5aThwoRw8k98X46Org6doXYEN69B40swgPmOO2jphps6L6QnVS3sPLnLUb_iikTF66A/s320/pixi.jpg');
+    background-size: cover;
+    top: -183px;
+    height: 395px;
+}
+
+.spdpixi h3{
+    position: absolute;
+    margin-top: 160px;
+    left: 75px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+.spdpixi h3:hover{
+    position: absolute;
+    margin-top: 160px;
+    left: 65px;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 90px;
+    color: orange;
+    text-align: center;
+}
+
+.bagian3 {
+    min-height: 100vh;
+    background: black;
+}
+
+.head3 {
+    position: relative;
+    display: flex;
+    top: 120px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head3 h3{
+    color: white;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 50px;
+}
+
+.text3 {
+    position: relative;
+    display: flex;
+    top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text3 p {
+    color: orange;
+    text-align: center;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 30px;
+    max-width: 800px;
+}
+
+.text3 p span {
+    color: white;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.last {
+    min-height: 10vh;
+}
+
+.copy {
+    position: relative;
+    display: flex;
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy p {
+    color: black;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-20%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden1 {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(20%);
+}
+
+.show1 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.mybike:nth-child(3){
+    transition-delay: 200ms;
+}
+
+.mybike:nth-child(4){
+    transition-delay: 400ms;
+}
+
+.mybike:nth-child(5){
+    transition-delay: 600ms;
+}
+
+.hidden3 {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateY(90%);
+}
+
+.show3 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.roadbike {
+    width: 100%;
+    height: 100%;
+    min-height: 150vh;
+    bottom: 0;
+    background: black;
+}
+
+.roadbike h1 {
+    color: orange;
+    font-family: 'Caveat Brush', monospace;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.roadbike p {
+    color: white;
+    font-family: 'Caveat Brush', monospace;
+    text-align: center;
+    position: absolute;
+    left: 220px;
+    font-size: 30px;
+    max-width: 900px;
+    padding-top: 30px;
+}
+
+.roadbike ol li {
+    color: white;
+    font-family: 'Caveat Brush', monospace;
+    position: relative;
+    left: 220px;
+    top: 200px;
+    font-size: 30px;
+    max-width: 900px;
+    padding-top: 30px;
+    padding-bottom: 650px;
+}
+
+.roadbike ol li p {
+    color: white;
+    font-family: 'Caveat Brush', monospace;
+    font-size: 30px;
+    left: 0px;
+    max-width: 900px;
+}
+
+.roadbike ol li img {
+    position: absolute;
+    top: 380px;
+    left: 260px;
+    height: 200px;
+}
+
+.roadbike ol li .endurance {
+    position: absolute;
+    top: 350px;
+    left: 260px;
+}
+
+.roadbike ol .l3{
+    top: -100px;
+}
+
+.roadbike ol .l2{
+    top: 70px;
+}
+
+.roadbike ol li .lw {
+    position: absolute;
+    top: 300px;
+    left: 260px;
+}
+
+.roadbike ol li .DJ1 {
+    top: 320px;
+}
+
+.roadbike ol li .park {
+    position: absolute;
+    top: 440px;
+    left: 260px;
+}
+
+.roadbike ol .park1{
+    top: -40px;
+}
+
+.roadbike ol .race1 {
+    position: relative;
+    top: -80px;
+}
+
+.roadbike ol .race1 .race {
+    top: 250px;
+}
+
+.roadbike ol .st1 {
+    position: relative;
+    top: -300px;
+}
+
+.roadbike ol .st1 .st {
+    top: 350px;
+}
+
+.roadbike ol .park1 .park2 {
+    position: absolute;
+    top: 350px;
+    left: 260px;
+}
+
+.roadbike .pixie {
+    position: relative;
+    left: 38%;
+    top: 250px;
+}
+
+@media (max-width:1080px){
+    .menu {
+        padding: 14px 0;
+    }
+
+    .menu a {
+        margin: 0 30px;
+    }
+
+    .bagian1 {
+        min-height: 73vh;
+    }
+
+    .bghover {
+        width: 1080px;
+        min-height: 73vh;
+    }
+
+    .pesan h1, h2 {
+        font-size: 40px;
+    }
+
+    .order a {
+        font-size: 30px;
+        margin-right: 50px;
+    }
+
+    .bagian2 {
+        min-height: 95vh;
+    }
+
+    .type {
+        left: 400px;
+    }
+
+    .spdbalap {
+        left: 60px;
+    }
+
+    .spdbalap h3 {
+        left: 18px;
+    }
+
+    .spdbmx {
+        left: 295px;
+    }
+
+    .spdbmx h3{
+        left: 50px;
+    }
+
+    .spdgunung {
+        left: 530px;
+    }
+
+    .spdgunung h3 {
+        left: 13px;
+    }
+
+    .spdpixi {
+        left: 765px;
+    }
+
+    .spdpixi h3 {
+        left: 40px;
+    }
+
+    .head3 h3 {
+        left: 50%;
+    }
+
+    .spdbalap h3:hover{
+        font-size: 50px;
+        left: 23px;
+    }
+
+    .roadbike p {
+        left: 90px;
+    }
+
+    .roadbike ol li {
+        left: 120px;
+    }
+}
